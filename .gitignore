@@ -1,0 +1,32 @@
+# .gitignore
+
+# Dependency directory
+node_modules/
+
+# Build/output directories
+dist/
+build/
+*.js
+*.d.ts
+*.map
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Logs
+logs/
+*.log
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Test coverage
+coverage/
+
+# extra
+.qodo/
+.qodo
